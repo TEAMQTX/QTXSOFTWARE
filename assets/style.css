@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    color: #ff0000; /* Updated */
+    color: rgb(255, 0, 0); /* Updated */
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
@@ -9,8 +9,8 @@ body {
     margin: 0;
     background-image: url('/assets/bg.gif');
     background-size: cover;
-    background-position: center;
-}
+    background-position: center
+};
 
 .chatbot-container, .auth-container {
     background-color: rgba(0, 0, 0, 0.8);
@@ -25,7 +25,7 @@ body {
 #chat {
     height: 300px;
     overflow: auto;
-    border: 1px solid #ff0000; /* Updated */
+    border: 1px solid #FF0000; /* Updated */
     padding: 15px;
     background-color: #111;
     margin-bottom: 20px;
@@ -36,14 +36,14 @@ body {
 .form-control {
     margin-bottom: 10px;
     background-color: #111;
-    color: #ff0000; /* Updated */
-    border: 1px solid #ff0000; /* Updated */
+    color: #FF0000; /* Updated */
+    border: 1px solid #FF0000; /* Updated */
 }
 
 .btn-submit, .btn-auth {
     width: 100%;
     padding: 10px;
-    background-color: #ff0000; /* Updated */
+    background-color: #FF0000; /* Updated */
     color: #000;
     border: none;
     border-radius: 8px;
@@ -60,7 +60,7 @@ img {
 
 .modal-content {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #ff0000; /* Updated */
+    color: #FF0000; /* Updated */
 }
 
 .modal-header, .modal-footer {
@@ -73,6 +73,6 @@ img {
 
 .modal-footer .btn-close {
     background-color: #333;
-    color: #ff0000; /* Updated */
+    color: #FF0000; /* Updated */
     border: none;
 }
